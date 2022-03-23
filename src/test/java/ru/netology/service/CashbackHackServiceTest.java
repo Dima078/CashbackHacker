@@ -46,7 +46,7 @@ public class CashbackHackServiceTest {
     public void souldTestRemainElseExpected1000() {
         CashbackHackService service = new CashbackHackService();
         int amout = 1000;
-        int expected = 1000;
+        int expected = 0;
         int actual = service.remain(amout);
         assertEquals(actual, expected);
     }
