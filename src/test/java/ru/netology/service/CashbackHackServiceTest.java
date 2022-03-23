@@ -43,10 +43,10 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    public void souldTestRemainElseExpected1000() {
+    public void souldTestRemainElseExpected0() {
         CashbackHackService service = new CashbackHackService();
         int amout = 1000;
-        int expected = 1000;
+        int expected = 0;
         int actual = service.remain(amout);
         assertEquals(actual, expected);
     }
